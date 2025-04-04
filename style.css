@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  gap: 0.5em;
+  margin: 1em 3em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 25em;
+  margin: 1em 0;
+  border: 1px solid #a9a9a9;
+  padding: 2em;
+  gap: 0.5em;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+button {
+  margin-top: 1em;
+  width: 5em;
+}
